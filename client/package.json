@@ -23,14 +23,14 @@
     "stringquery": "^1.0.8",
     "styled-components": "^4.2.0",
     "weathericons": "^2.1.0",
-    "snyk": "^1.169.2"
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "proxy": "https://betwixt-gt.herokuapp.com/",
